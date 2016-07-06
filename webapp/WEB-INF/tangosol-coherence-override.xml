@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+ 
+<coherence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://xmlns.oracle.com/coherence/coherence-operational-config"
+   xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config coherence-operational-config.xsd">
+   <cluster-config>
+      <member-identity>
+		 <cluster-name system-property="tangosol.coherence.cluster">IsepCoherenceCache</cluster-name>
+         <site-name system-property="tangosol.coherence.site">dev</site-name>
+         <rack-name system-property="tangosol.coherence.rack">1</rack-name>
+         <machine-name system-property="tangosol.coherence.machine">isepdev1
+         </machine-name>
+         <member-name system-property="tangosol.coherence.member">client-instance</member-name>
+         <role-name system-property="tangosol.coherence.role">Client</role-name>
+      </member-identity>
+  
+      <multicast-listener>
+
+         <time-to-live>0</time-to-live>
+      </multicast-listener>
+   </cluster-config>
+  
+
+</coherence>
