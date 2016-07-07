@@ -7,6 +7,7 @@
 		<jta-data-source>jdbc/isep-core</jta-data-source>
 		<class>pl.orange.coherence.Table1</class>
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<!-- <shared-cache-mode>NONE</shared-cache-mode> -->
 		<properties>
 			<property name="eclipselink.ddl-generation" value="create-or-extend-tables" />
 			<property name="eclipselink.jdbc.batch-writing" value="JDBC" />
