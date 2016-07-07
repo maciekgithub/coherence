@@ -25,8 +25,8 @@
 			  <unit-calculator>binary</unit-calculator>
 			</local-scheme>
          </backing-map-scheme>
-         <autostart>true</autostart>
-         <local-storage>false</local-storage>
+         <!-- <autostart>true</autostart> -->
+         <!-- <local-storage>false</local-storage> -->
       </distributed-scheme>
    </caching-schemes>
 </cache-config>
