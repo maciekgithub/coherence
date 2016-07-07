@@ -38,15 +38,25 @@
   		<version>1.0</version>
   		<type>jar</type>
   	</dependency>
-  	<dependency>
+  <!-- 	<dependency>
   		<groupId>javax</groupId>
   		<artifactId>javaee-api</artifactId>
   		<version>7.0</version>
+  	</dependency> -->
+  	<dependency>
+  		<groupId>oracle.javax.persistence</groupId>
+  		<artifactId>javax.persistence</artifactId>
+  		<version>1.0</version>
   	</dependency>
   	<dependency>
-  		<groupId>org.eclipse.persistence</groupId>
+  		<groupId>oracle.eclipselink</groupId>
   		<artifactId>eclipselink</artifactId>
   		<version>1.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.1.0</version>
   	</dependency>
   </dependencies>
 </project>
